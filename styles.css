@@ -1,0 +1,125 @@
+
+
+.site-nav a[aria-current="page"] {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 7px;
+}
+
+.nav-cta {
+.feature-banner,
+.connect-section {
+.connect-section,
+.info-panel,
+.statement-section {
+  padding: clamp(72px, 10vw, 128px) clamp(18px, 5vw, 64px);
+
+.page-hero {
+  position: relative;
+  min-height: 68vh;
+  display: grid;
+  align-items: end;
+  padding: 132px clamp(18px, 5vw, 64px) 58px;
+  color: var(--white);
+  overflow: hidden;
+}
+
+.page-hero img {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(1) contrast(1.05);
+}
+
+.page-hero::after {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  content: "";
+  background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.22) 58%, rgba(0, 0, 0, 0.08)),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.02) 55%);
+}
+
+.page-hero div {
+  max-width: 920px;
+}
+
+.page-hero h1 {
+  max-width: 980px;
+  font-size: clamp(3.4rem, 9vw, 8rem);
+}
+
+.page-hero p:not(.eyebrow) {
+  max-width: 640px;
+  color: rgba(255, 255, 255, 0.84);
+  font-size: clamp(1.05rem, 2vw, 1.28rem);
+  line-height: 1.55;
+}
+
+.section-heading {
+.event-list p,
+.ministry-grid p {
+.ministry-grid p,
+.info-list p {
+  color: var(--muted);
+
+.text-link {
+  display: inline-block;
+  margin-top: 18px;
+  font-size: 0.8rem;
+  font-weight: 900;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+  text-transform: uppercase;
+}
+
+.split-section {
+
+.info-panel,
+.statement-section {
+  max-width: calc(var(--max) + 128px);
+  margin: 0 auto;
+}
+
+.info-panel {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: clamp(30px, 6vw, 80px);
+  border-top: 1px solid var(--black);
+}
+
+.info-list {
+  display: grid;
+  align-content: start;
+  gap: 18px;
+}
+
+.info-list p {
+  margin: 0;
+}
+
+.statement-section {
+  color: var(--white);
+  background: var(--black);
+}
+
+.statement-section h2 {
+  max-width: 1050px;
+}
+
+.gallery {
+  .feature-banner,
+  .connect-section {
+  .connect-section,
+  .info-panel {
+    grid-template-columns: 1fr;
+  .feature-banner,
+  .connect-section {
+  .connect-section,
+  .info-panel,
+  .statement-section {
+    padding-top: 68px;
